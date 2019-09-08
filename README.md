@@ -50,7 +50,8 @@ If at any point the user clicks on the “Cancel” button, then the Information
 
 Likewise, if the submission succeeds, then the Information Posting View should be dismissed, returning the app to the Map and Table Tabbed View.
 ## Technical features
-- Use Udacity API to log in.
+- Use Udacity API to login and logout: authenticate Udacity API requests and delete the session ID to "logout".
+- Use Udacity API is to retrieve some basic user information 
 - Use Udacity OnTheMap API to get, put and post user location.
 - Use URLSession to manager all API request.
 - Use Decodable to parse JSON.
